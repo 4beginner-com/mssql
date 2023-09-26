@@ -1,0 +1,1 @@
+sqlpackage /a:export /scs:"Server=yourserver;Database=yourdatabasename;User ID=yourusername;Password=yourpassword;" /tf:"C:\Backup\Database\yourdatabasename_"%date:~6,4%%date:~3,2%%date:~0,2%".bacpac"
